@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <div class="header">
     <ul class="header__nav">
         <li class="header__nav-item">

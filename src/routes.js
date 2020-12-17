@@ -1,13 +1,10 @@
-import List from '@/components/List.vue'
-import Dropdown from '@/components/Dropdown.vue'
-
 export default [
     {
         path: '/',
-        component: List,
+        component: () => import('@/components/List.vue')
     },
     {
         path: '/dropdown',
-        component: Dropdown,
+        component: () => import('@/components/Dropdown.vue'),
     },
 ];
